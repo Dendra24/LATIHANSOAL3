@@ -29,36 +29,6 @@ triangle(4)
 // replace multiples of 3 with "Fizz", multiples of 5 with "Buzz", multiples of 3 and 5 with
 // "FizzBuzz".
 
-const fizzBuzz = (n: number[]) => {
-    return
-}
-
-const data = (n: number) => {
-    let collect = [];
-
-    for (let i = 1; i <= n; i++) {
-        if (i % 3 == 0 && i % 5 == 0) {
-            // console.log("FizzBuzz")
-            collect.push("FizzBuzz")
-        } else if (i % 3 == 0) {
-            // console.log("fizz")
-            collect.push("Fizz")
-        } else if (i % 5 == 0) {
-            // console.log("Buzz")
-            collect.push("Buzz")
-        } else {
-            // console.log(i)
-            collect.push(i)
-        }
-        // return collect;
-    }
-    return collect;
-}
-
-let results = data(6);
-let result = data(15)
-console.log(results);
-
 
 //3. Create A function program
 // ● Create a function to calculate Body Mass Index(BMI)
